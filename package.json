@@ -1,6 +1,6 @@
 {
   "name": "safesol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Safety-oriented drop-in replacement for Solidity",
   "main": "index.js",
   "scripts": {
