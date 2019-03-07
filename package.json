@@ -1,0 +1,31 @@
+{
+  "name": "safesol",
+  "version": "1.0.0",
+  "description": "Safety-oriented drop-in replacement for Solidity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no tests",
+    "compile": "node index.js",
+    "build": "cp rules/* node_modules/solium/lib/rules/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corollari/SafeSol.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "corollari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corollari/SafeSol/issues"
+  },
+  "homepage": "https://github.com/corollari/SafeSol#readme",
+  "dependencies": {
+    "solc": "^0.5.5",
+    "solium": "^1.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}
