@@ -5,7 +5,7 @@ module.exports = {
         docs: {
             recommended: true,
             type: "error",
-            description: "Turn strict equality checks on balance into greater-or-equal checks."
+            description: "Force the use of SafeMath."
         },
 
         fixable: "code",

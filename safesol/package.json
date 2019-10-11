@@ -1,11 +1,9 @@
 {
-  "name": "solium-plugin-safesol",
-  "version": "1.1.0",
+  "name": "safesol",
+  "version": "1.1.1",
   "description": "Training wheels for Solidity",
-  "main": "index.js",
   "scripts": {
-    "test": "echo no tests",
-    "build": "cp rules/* node_modules/solium/lib/rules/"
+    "test": "echo no tests"
   },
   "repository": {
     "type": "git",
@@ -13,10 +11,7 @@
   },
   "keywords": [
     "ethereum",
-	"solium-plugin-safesol",
-	"solium",
-	"solidity",
-	"soliumplugin"
+	"solidity"
   ],
   "author": "corollari",
   "license": "MIT",
@@ -24,10 +19,7 @@
     "url": "https://github.com/corollari/SafeSol/issues"
   },
   "homepage": "https://github.com/corollari/SafeSol#readme",
-  "peerDependencies": {
-    "solium": "^1.2.3"
-  },
-  "devDependencies": {
-    "eslint": "^5.15.1"
+  "dependencies": {
+    "solium-plugin-safesol": "^1.0.0"
   }
 }

@@ -5,7 +5,7 @@ module.exports = {
         docs: {
             recommended: true,
             type: "error",
-            description: "Convert tx.origin to msg.sender."
+            description: "Force all types into the largest available."
         },
 
         fixable: "code",
